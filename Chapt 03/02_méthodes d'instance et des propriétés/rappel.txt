@@ -1,0 +1,16 @@
+Rappel sur la notion de propriété de classe
+
+Avant d'aborder la notion de méthode d'instance, sur laquelle nous allons 
+nous concentrer dans ce cours, il est important d’expliquer la notion de 
+propriété de classe. C’est une variable interne à cette classe que l’on 
+peut définir par défaut et faire évoluer au fur et à mesure de l’exécution 
+de notre code. Il n’est pas rare d’utiliser le terme “attribut” au lieu de 
+"propriété", mais cela représente bien la même chose.
+
+Prenons l’exemple d’une classe qui représenterait un compte bancaire, et que 
+l’on appellerait du coup   BankAccount  . On pourrait trouver comme propriétés 
+owner  (permettant d’identifier le propriétaire du compte) et   balance  
+(permettant de connaître le montant disponible sur le compte). Ainsi, lorsque 
+que l’on crée une instance de   BankAccount  avec un propriétaire et un montant 
+initial en argument, on pourra exploiter par la suite ces propriétés pour afficher 
+leurs valeurs, les utiliser pour des calculs, les modifier, etc.
